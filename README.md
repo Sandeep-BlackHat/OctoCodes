@@ -1,2 +1,5 @@
 # OctoCodes
-Repo for Hackoctober repo and contribution
+Repository for contributions to Hackoctober.
+
+## Registration Link
+https://hacktoberfest.com
