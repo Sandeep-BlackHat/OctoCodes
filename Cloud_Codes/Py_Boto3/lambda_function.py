@@ -2,8 +2,7 @@ import boto3
 def lambda_handler(event, context):
     client = boto3.client('ec2')
     response = client.describe_instances(
-        Filters=[
-            {
+        Filters=[{
                 'Name': 'tag:project',
                 'Values': [event['project']]
             },
