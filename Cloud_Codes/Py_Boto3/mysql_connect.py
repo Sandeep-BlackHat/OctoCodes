@@ -3,7 +3,5 @@ import mysql.connector
 mydb = mysql.connector.connect(
 	host="Your <aws,azure,gcp> host address",
 	user="admin",
-	password="<Set any password>"
-)
-
+	password="<Set any password>")
 print(mydb)
