@@ -114,7 +114,7 @@ resource "azurerm_virtual_machine" "main" {
   }
   os_profile {
     computer_name  = "hostname"
-    admin_username = <your>
+    admin_username = <your username>
     admin_password = <your>
   }
 
