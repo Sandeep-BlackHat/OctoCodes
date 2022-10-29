@@ -1,4 +1,4 @@
-import mysql.connector
+import mysql.connector      #connect to mysql database
 mydb = mysql.connector.connect(
 	host="Your <aws,azure,gcp> host address",
 	user="admin",
